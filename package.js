@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 
   api.imply('promise');
 
-  api.use('cosmos:browserify@0.8.1');
+  api.use('cosmos:browserify@0.10.0');
   api.addFiles('client/denodeifyFunctions.js', 'client');
   api.addFiles('client/reactivePromise.js', 'client');
   api.addFiles('client/runAsync.browserify.js', 'client');
